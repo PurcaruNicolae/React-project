@@ -1,0 +1,23 @@
+/* Daca vrem ca aplicatia sa ocupe intreg viewport-ul. */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 10px;
+}
+
+.app h1 {
+  text-align: center;
+  margin-top: 0;
+  
+}
+
+.useri, .postari{
+  display: flex;
+}
+.useri button, .postari button{
+  margin-left: 15px;
+}
+
+
+
